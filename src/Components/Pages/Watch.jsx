@@ -49,7 +49,7 @@ const Watch = () => {
     }, [currentEpisode])
     return (
         <DefaultLayout>
-            <div className="mt-5">
+            <div className="mt-5 pb-3">
                 <div className="w-full">
                     {currentEpisode?.link_m3u8 ? (
                         <video
